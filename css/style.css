@@ -13,6 +13,11 @@ a, button {
   border: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   width: calc( 100% - 60px);
   margin: 40px auto 0;
@@ -48,6 +53,32 @@ a, button {
 
 .owl-stage-outer {
   height: 200px;
+}
+
+.connect-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9F9F9;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+}
+
+.titles {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
 }
 
 @font-face {
@@ -117,14 +148,7 @@ a, button {
 
 .support-banner__button {
   background-color: #FFFFFF;
-  border-radius: 12px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   width: 160px;
-  font-family: 'Museo Sans Cyrl 700', sans-serif;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 120%;
   color: #1A1A1A;
 }
 
@@ -198,10 +222,6 @@ a, button {
 .support-social__join {
   margin-top: 16px;
   margin-bottom: 0;
-  font-family: 'Museo Sans Cyrl 700', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 120%;
 }
 
 .support-social__icon {
@@ -213,13 +233,8 @@ a, button {
 }
 
 .support-social__icon__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 56px;
   height: 56px;
-  background-color: #F9F9F9;
-  border-radius: 10px;
 }
 
 .question {
@@ -291,10 +306,6 @@ a, button {
 .reference__title {
   margin-top: 80px;
   margin-bottom: 32px;
-  font-family: 'Museo Sans Cyrl 700', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 120%;
 }
 
 .reference__board {
@@ -332,5 +343,59 @@ a, button {
   content: url(../images/reference-arrow.svg);
   right: 24px;
   top: 40%;
+}
+
+.delivery {
+  margin-top: -18px;
+  margin-bottom: 80px;
+}
+
+.delivery__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: 'Museo Sans Cyrl 900', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.delivery__text {
+  margin-bottom: 40px;
+  width: 57%;
+  font-family: 'Museo Sans Cyrl 500', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+}
+
+.delivery__info {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 120%;
+}
+
+.delivery__contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 336px;
+  margin-top: 16px;
+}
+
+.delivery__button {
+  width: 224px;
+  background-color: #36BA5F;
+  border-radius: 12px;
+  color: #FFFFFF;
+}
+
+.delivery__button_img {
+  margin-right: 4px;
+  margin-bottom: -4px;
+}
+
+.delivery__icon__item {
+  width: 48px;
+  height: 48px;
 }
 /*# sourceMappingURL=style.css.map */
