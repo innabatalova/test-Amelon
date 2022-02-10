@@ -495,6 +495,20 @@ a {
   transition: all 0.3s ease-out;
 }
 
+@media screen and (max-width: 768px) {
+  .reference__title {
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  .reference__board__title {
+    font-size: 16px;
+  }
+  .reference__board__info {
+    max-width: 80%;
+    font-size: 11px;
+  }
+}
+
 .delivery {
   margin-top: -18px;
   margin-bottom: 80px;
