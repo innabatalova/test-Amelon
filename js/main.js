@@ -7,7 +7,7 @@ $(function () {
 //адаптив слайдера
 
 $(".question-slider").owlCarousel({
-  items: 4,
+  items: 1,
   margin: 23,
   loop: true,
   nav: true,
@@ -16,6 +16,24 @@ $(".question-slider").owlCarousel({
     "<img src='images/nav-arrow.svg'>",
     "<img src='images/nav-arrow.svg'>",
   ],
+
+  responsive: {
+    576: {
+      items: 2,
+      margin: 23,
+    },
+
+    768: {
+      items: 3,
+      margin: 23,
+    },
+
+    992: {
+      items: 4,
+      margin: 23,
+      nav: false,
+    },
+  },
 });
 
 //перенаправка на страницу delivery
