@@ -22,7 +22,7 @@ a, button {
 
 .subcontainer {
   width: calc( 100% - 284px);
-  margin: auto;
+  margin: 0 auto 80px;
 }
 
 .owl-item {
@@ -44,6 +44,10 @@ a, button {
   border-radius: 50%;
   z-index: 99;
   cursor: pointer;
+}
+
+.owl-stage-outer {
+  height: 200px;
 }
 
 @font-face {
@@ -278,5 +282,55 @@ a, button {
 
 .question-slider-navigation {
   position: relative;
+}
+
+.reference {
+  text-align: center;
+}
+
+.reference__title {
+  margin-top: 80px;
+  margin-bottom: 32px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.reference__board {
+  position: relative;
+  margin-bottom: 12px;
+  min-height: 64px;
+  padding: 20px 24px;
+  text-align: left;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.reference__board__title {
+  margin: 0;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.reference__board__info {
+  max-width: 50%;
+  margin: 0;
+  margin-top: 4px;
+  color: #949494;
+  font-family: 'Museo Sans Cyrl 500', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+}
+
+.reference__board::after {
+  position: absolute;
+  content: url(../images/reference-arrow.svg);
+  right: 24px;
+  top: 40%;
 }
 /*# sourceMappingURL=style.css.map */
