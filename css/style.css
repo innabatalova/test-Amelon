@@ -99,6 +99,13 @@ a {
   line-height: 120%;
 }
 
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: 15px auto 0;
+  }
+}
+
 @font-face {
   font-family: 'Museo Sans Cyrl 500';
   src: url("../fonts/MuseoSansCyrl-500.eot");
@@ -180,42 +187,105 @@ a {
   position: absolute;
 }
 
-.support-banner_mailleft {
+.support-banner__mailleft {
   left: -1px;
   bottom: 74px;
 }
 
-.support-banner_mailmiddle {
+.support-banner__mailmiddle {
   left: 45px;
   bottom: 95px;
 }
 
-.support-banner_mailright {
+.support-banner__mailright {
   top: 37px;
   left: 230px;
 }
 
-.support-banner_phone {
+.support-banner__phone {
   right: 52px;
   bottom: 8px;
   z-index: 2;
 }
 
-.support-banner_finger {
+.support-banner__finger {
   right: 98px;
   bottom: 98px;
   z-index: 1;
 }
 
-.support-banner_palm {
+.support-banner__palm {
   right: 70px;
   bottom: 15px;
   z-index: 3;
 }
 
-.support-banner_hand {
+.support-banner__hand {
   right: -6px;
   bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .support-banner__design {
+    z-index: 5;
+  }
+  .support-banner__title, .support-banner__info, .support-banner__button {
+    position: relative;
+    z-index: 20;
+  }
+  .support-banner__phone {
+    right: 52px;
+    bottom: 8px;
+    z-index: 7;
+  }
+  .support-banner__finger {
+    right: 98px;
+    bottom: 98px;
+    z-index: 6;
+  }
+  .support-banner__palm {
+    right: 70px;
+    bottom: 15px;
+    z-index: 8;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .support-banner__title {
+    font-size: 40px;
+  }
+  .support-banner__info {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .support-banner__wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+  .support-banner__button {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .support-banner {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .support-banner__title {
+    text-align: center;
+    font-size: 30px;
+  }
+  .support-banner__info {
+    font-size: 12px;
+  }
+  .support-banner__phone, .support-banner__finger, .support-banner__palm, .support-banner__hand {
+    display: none;
+  }
 }
 
 .support-social__wrapper {

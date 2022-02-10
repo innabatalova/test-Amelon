@@ -78,3 +78,64 @@
   &__hand
     right: -6px
     bottom: 0
+
+@media screen and ( max-width: 1200px )
+  .support-banner
+
+    &__design
+      z-index: 5
+
+    &__title, &__info, &__button
+      position: relative
+      z-index: 20
+
+    &__phone
+      right: 52px
+      bottom: 8px
+      z-index: 7
+
+    &__finger
+      right: 98px
+      bottom: 98px
+      z-index: 6
+
+    &__palm
+      right: 70px
+      bottom: 15px
+      z-index: 8
+
+@media screen and ( max-width: 768px )
+  .support-banner
+
+    &__title
+      font-size: 40px
+
+    &__info
+      font-size: 14px
+      line-height: 120%
+
+    &__wrapper
+      justify-content: center
+      flex-wrap: wrap
+      width: 95%
+
+    &__button
+      margin-right: 15px
+      margin-left: 15px
+      margin-bottom: 15px
+
+@media screen and ( max-width: 576px )
+  .support-banner
+    margin-top: 20px
+    margin-bottom: 20px
+    border-radius: 20px
+
+    &__title
+      text-align: center
+      font-size: 30px
+
+    &__info
+      font-size: 12px
+
+    &__phone, &__finger, &__palm, &__hand
+      display: none
