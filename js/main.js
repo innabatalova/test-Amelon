@@ -18,4 +18,9 @@ $(".question-slider").owlCarousel({
   ],
 });
 
-console.log("test");
+//перенаправка на страницу delivery
+let linkDelivery = $(".question-slider__card");
+
+linkDelivery.on("click", function () {
+  window.open("delivery.html"); //ссылки на странички категорий
+});

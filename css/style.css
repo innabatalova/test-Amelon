@@ -34,6 +34,12 @@ a {
   margin-left: 1px;
 }
 
+.owl-item:active, .owl-item:hover, .owl-item:focus {
+  box-shadow: 10px 30px 40px rgba(0, 0, 0, 0.04);
+  transform: scale(1.03);
+  transition: all 0.3s ease-out;
+}
+
 .owl-prev {
   display: none;
 }
@@ -64,6 +70,12 @@ a {
   cursor: pointer;
 }
 
+.connect-icon:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease-out;
+  background-color: #ebe4e4;
+}
+
 .button {
   border-radius: 12px;
   padding-top: 15px;
@@ -72,6 +84,12 @@ a {
   font-weight: 600;
   font-size: 15px;
   line-height: 120%;
+}
+
+.button:active, .button:hover, .button:focus {
+  box-shadow: 10px 30px 40px rgba(0, 0, 0, 0.04);
+  transform: scale(1.03);
+  transition: all 0.3s ease-out;
 }
 
 .titles {
@@ -152,7 +170,7 @@ a {
   color: #1A1A1A;
 }
 
-.support-banner__button_img {
+.support-banner__button__img {
   margin-right: 4px;
   max-width: 14px;
   max-height: 13px;
@@ -345,6 +363,12 @@ a {
   top: 40%;
 }
 
+.reference__board:hover {
+  box-shadow: 10px 30px 40px rgba(0, 0, 0, 0.04);
+  transform: scale(1.01);
+  transition: all 0.3s ease-out;
+}
+
 .delivery {
   margin-top: -18px;
   margin-bottom: 80px;
@@ -389,7 +413,7 @@ a {
   color: #FFFFFF;
 }
 
-.delivery__button_img {
+.delivery__button__img {
   margin-right: 4px;
   margin-bottom: -4px;
 }

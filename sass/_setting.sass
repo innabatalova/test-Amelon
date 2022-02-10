@@ -29,6 +29,11 @@ a
 .owl-item
   margin-left: 1px
 
+  &:active, &:hover, &:focus
+    box-shadow: 10px 30px 40px rgba(0, 0, 0, 0.04)
+    transform: scale(1.03)
+    transition: all 0.3s ease-out
+
 .owl-prev
   display: none
 
@@ -56,6 +61,11 @@ a
   border-radius: 10px
   cursor: pointer
 
+  &:hover
+    transform: scale(1.03)
+    transition: all 0.3s ease-out
+    background-color: #ebe4e4
+
 .button
   border-radius: 12px
   padding-top: 15px
@@ -64,6 +74,11 @@ a
   font-weight: 600
   font-size: 15px
   line-height: 120%
+
+  &:active, &:hover, &:focus
+    box-shadow: 10px 30px 40px rgba(0, 0, 0, 0.04)
+    transform: scale(1.03)
+    transition: all 0.3s ease-out
 
 .titles
   font-family: 'Museo Sans Cyrl 700', sans-serif
