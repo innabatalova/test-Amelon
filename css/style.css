@@ -4,6 +4,7 @@
 
 body {
   background-color: #ffffff;
+  color: #1A1A1A;
 }
 
 a, button {
@@ -15,6 +16,11 @@ a, button {
 .container {
   width: calc( 100% - 80px);
   margin: 40px auto 0;
+}
+
+.subcontainer {
+  width: calc( 100% - 284px);
+  margin: auto;
 }
 
 @font-face {
@@ -92,6 +98,7 @@ a, button {
   font-weight: 600;
   font-size: 15px;
   line-height: 120%;
+  color: #1A1A1A;
 }
 
 .support-banner__button_img {
@@ -140,5 +147,49 @@ a, button {
 .support-banner_hand {
   right: -6px;
   bottom: 0;
+}
+
+.support-social__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 40px;
+  min-height: 166px;
+  box-shadow: 0px 20px 60px rgba(26, 26, 26, 0.05);
+  border-radius: 40px;
+  margin-top: 82px;
+}
+
+.support-social__net {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+}
+
+.support-social__join {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.support-social__icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 406px;
+}
+
+.support-social__icon__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background-color: #F9F9F9;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
