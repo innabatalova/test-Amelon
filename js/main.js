@@ -31,7 +31,6 @@ $(".question-slider").owlCarousel({
     992: {
       items: 4,
       margin: 23,
-      nav: false,
     },
   },
 });
